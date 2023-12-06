@@ -1,0 +1,260 @@
+/****** Global Styles ******/
+
+body{
+margin: 0;
+padding: 0px;
+color: #5e5d5e;
+}
+
+.content-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto; }
+
+
+
+
+
+/****** Header Styles ******/
+.homepage-hero{
+   background: url('/img/full-background.png') #f9efef;
+    background-size:cover;
+    background-position: center;
+    height: 800px;
+}
+
+
+
+
+header h1{
+    float: left;
+    width:300px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif ;
+    color: #7b7e54;
+    padding: 65px 0 65px 25px;
+}
+
+
+header nav{
+    width:800px;
+    float:right; 
+    text-align: right;
+    padding: 75px 25px 75px 0;
+}
+
+nav ul li {
+display: inline-block;
+}
+
+nav ul li a{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #727172; 
+    padding-left: 50px;
+    
+}
+
+header h2{
+
+   width: 1000px;
+   clear:both;
+   font-family: 'Lora', serif;
+   font-size: 70px ;
+   line-height:100px ;
+   color: #817f80;
+   padding: 20px 0 20px 25px;
+
+}
+   
+
+    
+
+
+
+
+
+
+
+
+/****** About Styles ******/
+#about .content-wrapper{
+    padding: 30px 5px;
+   
+}
+
+#about .content-wrapper h2{
+  font-family: 'lora';
+  font-size: 45px; }
+  padding-left: 50px ; }
+  
+
+  #about p{
+    float: left;
+    width: 513px;
+    font-size: medium;
+    line-height: 20px;
+    padding-left: 55px ;
+    padding-right: 55px;
+  }
+
+
+
+
+
+
+
+
+
+/****** Skill Styles ******/
+#skills{
+    background: rgb(241, 237, 199);
+    text-align: center ;
+}
+
+.content-wrapper #skills{
+    padding:100px 0 ;
+}
+
+#skills .skill-list{
+    float: right ;
+    width: 340px;
+    padding: 20px ;
+}
+
+#skills h2{
+ font-family: 'lora', serif;
+ font-size: 50px;
+ padding: 20px;
+}
+
+
+#skills h3{
+    font-family: 'lora', serif;
+    font-size: 40px;
+    line-height: 10px;
+    margin: 10px 0 ;
+    padding: 20px;
+   }
+
+   #skills p{
+    font-family: 'lora';
+    font-size: 20px;
+    padding: 20px ;
+    line-height: 45px;
+    text-align: left ;
+   }
+
+/****** Contact Styles ******/
+
+#contact{
+    background: rgb(243, 220, 224) ;
+}
+
+#contact .content-wrapper{
+    padding: 110px 0;
+    
+
+}
+
+#contact .contact-image {
+    float: left;
+    width: 600px;
+}
+
+#contact #contact-img {
+    width: 500px;
+    height: 345px;
+    border: 12px solid #ffffff;
+    margin: 0 50px;
+    box-sizing: border-box;
+}
+
+ #contact .contact-info {
+    float:left;
+    width: 600px;
+    height: 300px;
+    padding-left: 100px;
+    box-sizing:border-box;
+   
+
+} 
+
+}
+#contact h2{
+    font-family: "lora", serif ;
+    font-size: 30px;
+    font-weight: 600;
+    margin:30px 0 ; }
+    
+
+
+#contact h3{
+    font-family: 'lora', serif ;
+    font-size: 24px;
+    font-weight: 400;
+    margin:19px 0 ;
+    line-height: 30px 0;
+}
+
+#contact #email-header{
+    margin-bottom:13px;
+
+}
+
+#contact #socials-header{
+    margin: 14px;
+}
+
+#contact #envelope{
+padding-right: 13px ;
+
+}
+
+#contact a {
+    text-decoration: none;
+    color: rgb(151, 115, 115);
+    font-size: 24px;
+    line-height: 36px;
+}
+        
+#contact ul li{
+    margin-top: 0;
+    padding-left: 0;
+    display: inline-block;
+}
+
+#contact ul img{
+    padding-right: 30px;
+}
+    
+
+
+
+/**** Project Page styles  ******/
+
+.project-page{
+    background: rgb(248, 242, 242);
+}
+
+#projects{
+
+    background: #f5f5f5;
+    text-align: center;
+
+}
+
+#projects img{
+
+width: 100vh ;
+padding-left: 30px ;
+}
+
+#projects h3{
+    font-size: 27px;
+}
+
+#projects p {
+    font-size: 27px;
+    line-height: 40px;
+    text-align:center;
